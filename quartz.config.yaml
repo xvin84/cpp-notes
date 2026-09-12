@@ -72,7 +72,7 @@ plugins:
     order: 50
     layout:
       position: right
-      priority: 30
+      priority: 10
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
@@ -139,7 +139,7 @@ plugins:
     enabled: true
     layout:
       position: right
-      priority: 10
+      priority: 30
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -192,10 +192,22 @@ plugins:
       priority: 5
       condition: not-index
   - source: "@quartz-community/comments"
-    enabled: false
+    enabled: true
     options:
       provider: giscus
-      options: {}
+      options:
+        repo: xvin84/cpp-notes
+        repoId: R_kgDOUYAsGQ
+        category: Announcements
+        categoryId: DIC_kwDOUYAsGc4DFdkc
+        mapping: pathname
+        strict: true
+        reactionsEnabled: true
+        inputPosition: bottom
+        lang: ru
+        lightTheme: light
+        darkTheme: dark_dimmed
+        loading: lazy
     layout:
       position: afterBody
       priority: 10
@@ -208,7 +220,16 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
+    options:
+      title: Недавно обновлённое
+      limit: 5
+      showTags: false
+      linkToMore: false
+    layout:
+      position: right
+      priority: 60
+      display: desktop-only
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
@@ -251,7 +272,7 @@ plugins:
       outputPath: static/encryptedContentIndex.json
     order: 900
   - source: "@quartz-community/stacked-pages"
-    enabled: false
+    enabled: true
     layout:
       position: afterBody
       priority: 50
