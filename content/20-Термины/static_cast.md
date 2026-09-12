@@ -1,4 +1,5 @@
 ---
+title: static_cast
 type: term
 status: read
 aliases:

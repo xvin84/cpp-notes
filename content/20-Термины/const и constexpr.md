@@ -1,4 +1,5 @@
 ---
+title: const и constexpr
 type: term
 status: read
 aliases:
