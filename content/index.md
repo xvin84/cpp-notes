@@ -1,4 +1,5 @@
 ---
+title: Курс C++ МФТИ
 type: map
 status: read
 tags: [cpp, map]
