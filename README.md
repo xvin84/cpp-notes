@@ -1,17 +1,20 @@
-# Quartz v5
+# Конспекты курса C++ (МФТИ)
 
-> “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
+Сайт: https://xvin84.github.io/cpp-notes
 
-Quartz is a set of tools that helps you publish your [digital garden](https://jzhao.xyz/posts/networked-thought) and notes as a website for free.
+Статический сайт на [Quartz 5](https://github.com/jackyzha0/quartz).
+Содержимое не редактируется здесь: заметки живут в приватной базе Obsidian,
+а сюда попадают скриптом `publish.sh` из неё — и только те, что прочитаны
+и проверены автором (`status: read` или `mastered`).
 
-🔗 Read the documentation and get started: https://quartz.jzhao.xyz/
+Сборка и публикация — GitHub Actions (`.github/workflows/deploy.yml`),
+запускается автоматически при push в `main`, занимает около минуты.
 
-[Join the Discord Community](https://discord.gg/cRFFHYye7t)
+Локальный просмотр:
 
-## Sponsors
+```sh
+npm ci
+npx quartz build --serve   # http://localhost:8080
+```
 
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>
+Код Quartz распространяется по лицензии MIT, см. `LICENSE.txt`.
