@@ -243,7 +243,7 @@ plugins:
     options: {}
     order: 50
   - source: "@quartz-community/note-properties"
-    enabled: true
+    enabled: false
     options:
       includeAll: false
       includedProperties:
@@ -271,8 +271,10 @@ plugins:
       unlistWhenEncrypted: false
       outputPath: static/encryptedContentIndex.json
     order: 900
+  # Несовместим с сайтом в подпапке: строит адреса от origin,
+  # теряя префикс /cpp-notes/, и навигация уводит на 404.
   - source: "@quartz-community/stacked-pages"
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 50
