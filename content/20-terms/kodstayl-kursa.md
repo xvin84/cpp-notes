@@ -1,8 +1,9 @@
 ---
-title: Кодстайл курса
+title: "Кодстайл курса"
 type: reference
 status: read
 aliases:
+  - "20-термины/кодстайл-курса"
   - codestyle
   - code style
   - кодстайл
