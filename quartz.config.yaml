@@ -137,6 +137,16 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      # Теги узлами графа не показываем: cpp/memory и cpp/oop работают хабами
+      # и связывают заметки, между которыми никакой ссылки нет. Граф должен
+      # показывать смысловые связи, а не общую рубрику.
+      localGraph:
+        depth: 2
+        showTags: false
+        focusOnHover: true
+      globalGraph:
+        showTags: false
     layout:
       position: right
       priority: 30
