@@ -26,6 +26,7 @@ created: 2026-09-12
 | № | Лекция | Дата |
 |---|--------|------|
 | 01 | [[10-lectures/l01-vvedenie-v-cpp|L01 - Введение в C++]] | 12.09.2026 |
+| 02 | [[10-lectures/l02-oblasti-vidimosti-i-cikly|L02 - Области видимости и циклы]] | 19.09.2026 |
 
 ## Термины
 
@@ -48,6 +49,12 @@ created: 2026-09-12
 - [[20-terms/logicheskie-operacii-i-korotkoe-zamykanie|Логические операции и короткое замыкание]] — `&&`, `||`, гарантии порядка
 - [[20-terms/pobitovye-operacii|Побитовые операции]] — `& | ^ ~`, сдвиги и их ловушки
 - [[20-terms/uslovnyy-operator-if|Условный оператор if]] — ветвление, цепочки, потерявшийся `else`
+- [[20-terms/cikly|Циклы]] — `while`, `do-while`, `for`, `break` и `continue`
+
+**Имена и время жизни**
+- [[20-terms/oblast-deystviya|Область действия]] — где объект существует: блоки, автоматические и глобальные переменные
+- [[20-terms/oblast-vidimosti|Область видимости]] — где объект доступен по имени, сокрытие и `::`
+- [[20-terms/obyavlenie-i-opredelenie|Объявление и определение]] — имя против объекта, `extern`
 
 **Ввод-вывод**
 - [[20-terms/potoki-vvoda-i-vyvoda|Потоки ввода и вывода]] — `std::cin`, `std::cout`, `'\n'` против `std::endl`
