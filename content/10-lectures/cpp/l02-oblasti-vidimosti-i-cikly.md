@@ -7,7 +7,7 @@ date: 2026-09-19
 source: [scopes_and_loops.pdf]
 tags: [cpp, lecture]
 created: 2026-09-26
-aliases: ["10-лекции/l02---области-видимости-и-циклы"]
+aliases: ["10-лекции/c++/l02---области-видимости-и-циклы", "10-lectures/l02-oblasti-vidimosti-i-cikly", "10-лекции/l02---области-видимости-и-циклы"]
 ---
 
 > [!abstract] О чём лекция

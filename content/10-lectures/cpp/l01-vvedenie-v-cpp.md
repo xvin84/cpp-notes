@@ -11,7 +11,7 @@ tags:
   - cpp
   - lecture
 created: 2026-09-12
-aliases: ["10-лекции/l01---введение-в-c++"]
+aliases: ["10-лекции/c++/l01---введение-в-c++", "10-lectures/l01-vvedenie-v-cpp", "10-лекции/l01---введение-в-c++"]
 ---
 
 > [!abstract] О чём лекция
@@ -902,8 +902,8 @@ const int hours = total_seconds / kSecondsInHour;
 
 ## Разобранные примеры
 
-- [[30-code/l01-razbor-main-cpp|L01 - Разбор - main.cpp]] — код, который писали на занятии; исходник
-  лежит в `30-Код/L01 - main.cpp`
+- [[30-code/cpp/l01-razbor-main-cpp|L01 - Разбор - main.cpp]] — код, который писали на занятии; исходник
+  лежит в `30-Код/C++/L01 - main.cpp`
 
 ## Грабли
 

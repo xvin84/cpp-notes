@@ -79,4 +79,4 @@ clang-tidy main.cpp -- -std=c++17           # молчит — замечани�
 `goto` запрещён на территории курса. Вместо него — циклы, `break`, `continue`,
 ранний `return`, флаг состояния или отдельная функция: обойтись без `goto`
 можно в любой ситуации. Почему — в
-[[10-lectures/l02-oblasti-vidimosti-i-cikly#7. Оператор goto|L02 - Области видимости и циклы]].
+[[10-lectures/cpp/l02-oblasti-vidimosti-i-cikly#7. Оператор goto|L02 - Области видимости и циклы]].
